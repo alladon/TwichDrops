@@ -1,8 +1,8 @@
 export enum Selector {
-  STREAMERS = 'article > div > div > div > div > a > p',
+  STREAMERS = '.tw-tower > div > a',
   OFFLINE = 'div[data-a-target="home-offline-carousel"]',
   ONLINE = 'a[data-a-target="watch-mode-to-home"]',
-  CLAIM_DROPS = 'data-a-target="tw-core-button-label-text"',
+  CLAIM_DROPS = '.tw-tower:first-of-type button',
   DROPS_PAGE = 'div[data-a-page-loaded-name="DropsInventoryPage"]',
   GAME = 'a[data-a-target="stream-game-link"]',
   QUALITY = 'div[data-a-target="player-settings-submenu-quality-option"]',

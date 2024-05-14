@@ -134,7 +134,7 @@ export class TwitchWatcher extends CustomBrowser {
     const streamers = await this.master.getStreamers();
     this.streamer = streamers[random(0, streamers.length - 1)];
 
-    await goTo(this.page, `${TWITCH_BASE_URL}${this.streamer}`);
+    await goTo(this.page, `${this.streamer}`);
     await this.page.waitForSelector(Selector.VIDEO);
 
     this.logger.log(`Watch ${this.streamer} now`);
