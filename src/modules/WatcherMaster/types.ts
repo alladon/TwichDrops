@@ -3,5 +3,5 @@ export enum Route {
 }
 
 export enum Categories {
-  DROPS = '?tl=Drops',
+  DROPS = '?filter=drops',
 }
