@@ -1,4 +1,4 @@
-export const DROPS_PAGE_TIMEOUT = 3_000;
+export const DROPS_PAGE_TIMEOUT = 10_000;
 export const CLAIM_DROPS_TIMEOUT = 3_000;
 export const ADULT_CONTENT_TIMEOUT = 5_00;
 
